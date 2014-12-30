@@ -6,7 +6,7 @@
 (define (heat operations)
   @("Calculate a lower-bound on the heat dissipated by some number
 of irreversible bit-operations."
-    "Room-temperature is governed by the [[room-temperature]]
+    "Room-temperature is governed by the [[#room-temperature]]
 parameter."
     (operations "The number of irreversible bit-operations")
     (@to "number"))
