@@ -1,0 +1,8 @@
+(use cock setup-helper-mod)
+
+(setup-shared-extension-module
+ 'landauer
+ (extension-version "0.0")
+ compile-options: '(-X cock))
+
+(run-cock -o landauer.wiki landauer.scm landauer-core.scm)

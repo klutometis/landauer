@@ -1,0 +1,60 @@
+== landauer
+
+Use the Landauer limit to calculate my program's entropy.
+[[toc:]]
+=== Landauer's principle
+[[http://en.wikipedia.org/wiki/Landauer%27s_principle|Landauer's
+principle]] states that every irreversible operation produces
+entropy; erasing one bit, for instance, generates at least '''kT''' ln
+2 J of heat.
+
+
+We can use Landauer's principle to calculate a lower-bound on
+the energy released by our program, given some number of
+bit-operations.
+
+
+=== Documentation
+==== {{landauer}}
+'''[module]''' {{landauer}}
+
+The Landauer module contains contains some constants, parameters
+and procedures for calculating a lower-bound on the heat-dissipation
+of programs.
+* [[#heat]]
+==== {{k}}
+<constant>k → 1.38e-23</constant>
+The Boltzmann constant
+<enscript highlight="scheme">(define k 1.38e-23)
+</enscript>
+==== {{room-temperature}}
+<parameter>room-temperature → 298.15</parameter>
+Room temperature in K
+<enscript highlight="scheme">(define room-temperature (make-parameter 298.15))
+</enscript>
+==== {{heat}}
+<procedure>(heat operations) → number</procedure>
+Calculate a lower-bound on the heat dissipated by some number
+of irreversible bit-operations.
+
+Room-temperature is governed by the [[room-temperature]]
+parameter.
+; {{operations}} : The number of irreversible bit-operations
+<enscript highlight="scheme">(define (heat operations) (* operations k (room-temperature) (log 2)))
+</enscript>
+=== About this egg
+
+==== Author
+
+[[/users/klutometis|Peter Danenberg]]
+==== Repository
+[[https://github.com/klutometis/landauer]]
+==== License
+BSD
+==== Dependencies
+* [[cock]]
+
+
+==== Colophon
+
+Documented by [[/egg/cock|cock]].
