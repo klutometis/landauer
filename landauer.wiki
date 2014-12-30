@@ -54,7 +54,8 @@ BSD
 ==== Dependencies
 * [[cock]]
 
-
+==== Versions
+; [[https://github.com/klutometis/landauer/releases/tag/0.0|0.0]] : Initial commit
 ==== Colophon
 
 Documented by [[/egg/cock|cock]].
