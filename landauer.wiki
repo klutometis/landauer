@@ -5,7 +5,7 @@ Use the Landauer limit to calculate my program's entropy.
 === Landauer's principle
 [[http://en.wikipedia.org/wiki/Landauer%27s_principle|Landauer's
 principle]] states that every irreversible operation produces
-entropy; erasing one bit, for instance, generates at least '''kT''' ln
+entropy; erasing one bit, for instance, generates at least ''kT'' ln
 2 J of heat.
 
 

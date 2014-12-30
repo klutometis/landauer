@@ -2,7 +2,7 @@
 
 @(text "[[http://en.wikipedia.org/wiki/Landauer%27s_principle|Landauer's
 principle]] states that every irreversible operation produces
-entropy; erasing one bit, for instance, generates at least '''kT''' ln
+entropy; erasing one bit, for instance, generates at least ''kT'' ln
 2 J of heat.")
 
 @(text "We can use Landauer's principle to calculate a lower-bound on
