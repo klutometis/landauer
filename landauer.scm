@@ -16,6 +16,8 @@ bit-operations.")
   @("The Landauer module contains contains some constants, parameters
 and procedures for calculating a lower-bound on the heat-dissipation
 of programs.")
-  (heat)
+  (heat
+   k
+   room-temperature)
   (import chicken scheme)
   (include "landauer-core.scm"))
