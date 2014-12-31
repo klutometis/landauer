@@ -22,6 +22,8 @@ The Landauer module contains contains some constants, parameters
 and procedures for calculating a lower-bound on the heat-dissipation
 of programs.
 * [[#heat]]
+* [[#k]]
+* [[#room-temperature]]
 ==== {{k}}
 <constant>k → 1.38e-23</constant>
 The Boltzmann constant
@@ -56,6 +58,7 @@ BSD
 
 ==== Versions
 ; [[https://github.com/klutometis/landauer/releases/tag/0.0|0.0]] : Initial commit
+; [[https://github.com/klutometis/landauer/releases/tag/0.0.1|0.0.1]] : Also export k and room-temperature.
 ==== Colophon
 
 Documented by [[/egg/cock|cock]].
