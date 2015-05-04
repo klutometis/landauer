@@ -1,8 +1,8 @@
-(use cock setup-helper-mod)
+(use hahn setup-helper-mod)
 
 (setup-shared-extension-module
  'landauer
- (extension-version "0.0.1")
- compile-options: '(-X cock))
+ (extension-version "0.0.2")
+ compile-options: '(-X hahn))
 
-(run-cock -o landauer.wiki landauer.scm landauer-core.scm)
+(run-hahn -o landauer.wiki landauer.scm landauer-core.scm)

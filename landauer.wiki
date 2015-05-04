@@ -54,11 +54,11 @@ parameter.
 ==== License
 BSD
 ==== Dependencies
-* [[cock]]
+* [[(hahn 0.9.3)]]
 
 ==== Versions
 ; [[https://github.com/klutometis/landauer/releases/tag/0.0|0.0]] : Initial commit
 ; [[https://github.com/klutometis/landauer/releases/tag/0.0.1|0.0.1]] : Also export k and room-temperature.
 ==== Colophon
 
-Documented by [[/egg/cock|cock]].
+Documented by [[/egg/hahn|hahn]].

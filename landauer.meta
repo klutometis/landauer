@@ -5,6 +5,6 @@
  (repo "https://github.com/klutometis/landauer")
  (category math)
  (license "BSD")
- (depends cock)
+ (depends (hahn "0.9.3"))
  (test-depends test)
  (foreign-depends))
